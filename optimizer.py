@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def gradient_descent(loss_fn, grad_fn, init_params, lr=0.01, steps=100):
     params = np.array(init_params, dtype=float)
     history = [params.copy()]
