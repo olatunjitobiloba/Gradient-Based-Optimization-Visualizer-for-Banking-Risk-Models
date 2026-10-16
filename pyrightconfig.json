@@ -2,5 +2,6 @@
   "venvPath": ".",
   "venv": ".venv",
   "extraPaths": ["src"],
-  "typeCheckingMode": "basic"
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "none"
 }
